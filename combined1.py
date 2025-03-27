@@ -229,7 +229,7 @@ def start_audio():
     try:
         if detector is None:
             # Replace this with your actual Gemini API key
-            GEMINI_API_KEY = "AIzaSyClT0TmFqH16hmiIq_dDTdY4xn55-xosLs"
+            GEMINI_API_KEY = "your API key"
             detector = AudioEmotionDetector(api_key=GEMINI_API_KEY)
             threading.Thread(target=detector.start).start()
             response = {"status": "Audio recording started successfully"}
