@@ -134,7 +134,7 @@ class AudioEmotionDetector:
 # Example usage
 if __name__ == "__main__":
     # Replace with your Gemini API key
-    GEMINI_API_KEY ="AIzaSyDu-u4TKO92aM8yUSjCoiXM-WJV6v0ODYY"
+    GEMINI_API_KEY ="your API key"
     
     detector = AudioEmotionDetector(api_key=GEMINI_API_KEY)
     detector.start()
